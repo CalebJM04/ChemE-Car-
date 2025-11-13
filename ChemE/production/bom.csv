@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,Osram_BPW82,1,D_Photo,
+IC1,DIP794W53P254L959H508Q8N,1,LF353P,
+J1,PinHeader_1x02_P2.54mm_Vertical,1,Circuit Battery,
+MOTOR,PinHeader_1x02_P2.54mm_Vertical,1,Motor,
+MOTOR_BATT,PinHeader_1x02_P2.54mm_Vertical,1,Motor battery,
+Q1,TO-247-3_Vertical,1,MTP3055E,
+R1,1206,1,470k,
+"R2, R3",1206,2,10k,
+RV1,Potentiometer_ACP_CA9-H5_Horizontal,1,10k pot,
+U1,DIP794W45P254L959H508Q8,1,LM393N,

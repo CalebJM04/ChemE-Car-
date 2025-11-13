@@ -1417,7 +1417,7 @@
 		(at 176.8348 104.6988)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "motor1"
+		(property "Reference" "motor"
 			(at -2.4384 1.1176 90)
 			(layer "F.SilkS")
 			(uuid "5abfcf41-b330-4aaf-a62a-682551e153da")
@@ -1671,8 +1671,8 @@
 		(at 180.4924 104.7496 90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "batt_car1"
-			(at 2.54 1.4224 180)
+		(property "Reference" "motor_batt"
+			(at 2.54 0.7576 180)
 			(layer "F.SilkS")
 			(uuid "1a1e745d-585c-4d70-9336-46ed4e394fa7")
 			(effects
