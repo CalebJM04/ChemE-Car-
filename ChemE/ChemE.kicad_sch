@@ -635,6 +635,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4004"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4004"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4004_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4004_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LF35P:LF353P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1651,6 +1818,12 @@
 		)
 	)
 	(junction
+		(at 251.46 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02ef5aac-0d1f-434b-bfcd-763992d98ada")
+	)
+	(junction
 		(at 255.27 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1661,6 +1834,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b1f25cf-32e6-4e01-babf-db98da1be3d2")
+	)
+	(junction
+		(at 261.62 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7453e1dd-a428-41d5-a8f6-aca4f1dfb1c8")
 	)
 	(junction
 		(at 99.06 59.69)
@@ -1916,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 34.29) (xy 259.08 34.29)
+			(xy 250.19 34.29) (xy 251.46 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1933,6 +2112,16 @@
 			(type default)
 		)
 		(uuid "6efd3e34-1850-4a55-ad7a-a07b30a4ab7a")
+	)
+	(wire
+		(pts
+			(xy 261.62 45.72) (xy 261.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74123297-f296-412b-9fbd-f0e9971b0e63")
 	)
 	(wire
 		(pts
@@ -1966,6 +2155,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 45.72) (xy 251.46 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd39f15-e751-46f9-a9c5-629aca9136d4")
+	)
+	(wire
+		(pts
 			(xy 227.33 30.48) (xy 231.14 30.48)
 		)
 		(stroke
@@ -1996,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 31.75) (xy 261.62 55.88)
+			(xy 261.62 31.75) (xy 261.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2023,6 +2222,16 @@
 			(type default)
 		)
 		(uuid "d0a6afd8-3b3c-43a1-beeb-16f86c426437")
+	)
+	(wire
+		(pts
+			(xy 254 45.72) (xy 251.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d269ea2b-24ab-4520-b662-5e7a47542a77")
 	)
 	(wire
 		(pts
@@ -2053,6 +2262,16 @@
 			(type default)
 		)
 		(uuid "eda0c437-c699-4cdd-9d5f-e1f955d448a1")
+	)
+	(wire
+		(pts
+			(xy 251.46 34.29) (xy 259.08 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7d6a4c-2e87-4b82-b6d1-dfc037f665fc")
 	)
 	(wire
 		(pts
@@ -2481,6 +2700,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4004")
+		(at 257.81 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d484b73-ff9b-40df-a398-795175e4a4a6")
+		(property "Reference" "D2"
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 257.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 257.81 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 257.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 257.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 257.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 257.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e64eadc-1afb-447f-9729-21c8370e0915")
+		)
+		(pin "1"
+			(uuid "e1e23501-8542-4bae-a6d9-764791cedf26")
+		)
+		(instances
+			(project ""
+				(path "/39594484-eaea-4ff9-9430-fc8d8cc01f91"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 250.19 34.29 0)
 		(unit 1)
@@ -2574,7 +2879,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 243.078 68.58 90)
 			(effects
 				(font
@@ -2644,7 +2949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 100.838 63.5 90)
 			(effects
 				(font
@@ -3410,7 +3715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 232.41 66.548 90)
 			(effects
 				(font
