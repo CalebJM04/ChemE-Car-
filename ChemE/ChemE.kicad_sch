@@ -4071,7 +4071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4d8aadf-3452-46e1-8fe0-6aa698ac99c7")
-		(property "Reference" "batt_car1"
+		(property "Reference" "motor_car1"
 			(at 228.6 24.7649 90)
 			(effects
 				(font
@@ -4125,7 +4125,7 @@
 		(instances
 			(project "ChemE"
 				(path "/39594484-eaea-4ff9-9430-fc8d8cc01f91"
-					(reference "batt_car1")
+					(reference "motor_car1")
 					(unit 1)
 				)
 			)
