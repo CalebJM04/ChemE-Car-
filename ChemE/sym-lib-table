@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM393N")(type "KiCad")(uri "C:/Users/flvol/Documents/GitHub/ChemE-Car-/Dependencies/LM393N_NOPB/LM393N.kicad_sym")(options "")(descr ""))
+  (lib (name "LF35P")(type "KiCad")(uri "C:/Users/flvol/Documents/GitHub/ChemE-Car-/Dependencies/LIB_LF353P/LF353P/KiCad/LF353P.kicad_sym")(options "")(descr ""))
+)

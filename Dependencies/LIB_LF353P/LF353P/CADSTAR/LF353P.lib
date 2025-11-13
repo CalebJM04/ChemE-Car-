@@ -1,0 +1,16 @@
+.LF353P :1 ;Dual General-Purpose JFET-input Operational Amplifier
+DIP794W53P254L959H508Q8N
+*STM IC
+*NGS
+*PLB 1="1OUT" 2="1IN-" 3="1IN+" 4="VCC-" 5="2IN+" 6="2IN-" 7="2OUT" 8="VCC+"
+*MXP 8
+*DFN LF353P
+~!Mouser Part Number (595-LF353P)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF353P?qs=EIjG%252BN7kn%252BnHJN43AgArjw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LF353P)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/lf353.pdf)
+~!Height (5.08mm)
+~!3D_Model (LF353P)
+LF353P
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
