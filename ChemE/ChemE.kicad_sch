@@ -1817,6 +1817,76 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "potentiometer for tuning"
+		(exclude_from_sim no)
+		(at 178.054 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b13f1d8-e0dc-45e9-abd2-05112ea53592")
+	)
+	(text "transimpedence amplifier (TIA) - converts the current to a voltage"
+		(exclude_from_sim no)
+		(at 106.426 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d04eeb3-b830-4079-b251-74b411f6d041")
+	)
+	(text "motor battery connector"
+		(exclude_from_sim no)
+		(at 224.79 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59b3f0d5-3b6c-4688-92db-c8f51deaf30d")
+	)
+	(text "DC motor connector"
+		(exclude_from_sim no)
+		(at 260.858 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5bc01995-2901-4013-8f90-f8d9013888ed")
+	)
+	(text "MOSFET"
+		(exclude_from_sim no)
+		(at 262.382 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99457bcd-33f4-4d64-97a5-06b94730b72c")
+	)
+	(text "comparator. when we're changing (known from the TIA), it compares the TIA voltage (v_comp) to the \nreference (9v, v_ref) voltage\n\nIf we're changing (so v_ref <= v_comp), a HIGH signal is sent.\nwhen this high signal is sent, the mosfet (a gate) OPENS and allows the power from\nthe car battery to power the motor.\n"
+		(exclude_from_sim no)
+		(at 211.328 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d57db017-a3f8-4f1e-ae92-f9c62ccf68cd")
+	)
+	(text "9V batt connector"
+		(exclude_from_sim no)
+		(at 90.17 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f36c952a-df2b-40f7-a7ba-f70db7fbe942")
+	)
 	(junction
 		(at 251.46 34.29)
 		(diameter 0)
