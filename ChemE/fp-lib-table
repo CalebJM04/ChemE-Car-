@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "comparator")(type "KiCad")(uri "/Users/calebmurray/Documents/GitHub/ChemE-Car-/Dependencies/LM393N_NOPB")(options "")(descr ""))
+  (lib (name "op amp")(type "KiCad")(uri "/Users/calebmurray/Documents/GitHub/ChemE-Car-/Dependencies/LIB_LF353P/LF353P/KiCad")(options "")(descr ""))
+)
