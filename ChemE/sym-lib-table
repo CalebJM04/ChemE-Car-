@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "LM393N")(type "KiCad")(uri "C:/Users/flvol/Documents/GitHub/ChemE-Car-/Dependencies/LM393N_NOPB/LM393N.kicad_sym")(options "")(descr ""))
   (lib (name "LF35P")(type "KiCad")(uri "C:/Users/flvol/Documents/GitHub/ChemE-Car-/Dependencies/LIB_LF353P/LF353P/KiCad/LF353P.kicad_sym")(options "")(descr ""))
+  (lib (name "mosfet")(type "KiCad")(uri "C:/Users/flvol/Documents/GitHub/ChemE-Car-/Dependencies/LIB_IRLZ44NPBF/IRLZ44NPBF/KiCad/IRLZ44NPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "step")(type "KiCad")(uri "C:/Users/flvol/Documents/GitHub/ChemE-Car-/Dependencies/step/KiCADv6/2026-01-04_23-46-49.kicad_sym")(options "")(descr ""))
 )

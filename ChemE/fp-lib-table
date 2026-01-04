@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "comparator")(type "KiCad")(uri "/Users/calebmurray/Documents/GitHub/ChemE-Car-/Dependencies/LM393N_NOPB")(options "")(descr ""))
   (lib (name "op amp")(type "KiCad")(uri "/Users/calebmurray/Documents/GitHub/ChemE-Car-/Dependencies/LIB_LF353P/LF353P/KiCad")(options "")(descr ""))
+  (lib (name "mosfet")(type "KiCad")(uri "C:/Users/flvol/Documents/GitHub/ChemE-Car-/Dependencies/LIB_IRLZ44NPBF/IRLZ44NPBF/KiCad")(options "")(descr ""))
+  (lib (name "step")(type "KiCad")(uri "C:/Users/flvol/Documents/GitHub/ChemE-Car-/Dependencies/step/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
